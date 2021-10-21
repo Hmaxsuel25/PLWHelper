@@ -21,7 +21,7 @@ server.login(login, password)
 
 
 #Construção
-corpo = ""
+corpo = words
 email_msg = MIMEMultipart()
 email_msg['From'] = login
 email_msg['To'] = ''

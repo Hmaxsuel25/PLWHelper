@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Madeireira Palowa - Abertura de Chamados</string>
   </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
@@ -40,8 +43,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>30</y>
+      <x>160</x>
+      <y>70</y>
       <width>221</width>
       <height>61</height>
      </rect>
@@ -60,20 +63,40 @@
      <rect>
       <x>204</x>
       <y>130</y>
-      <width>261</width>
+      <width>271</width>
       <height>22</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_2">
-    <property name="geometry">
-     <rect>
-      <x>204</x>
-      <y>170</y>
-      <width>261</width>
-      <height>22</height>
-     </rect>
-    </property>
+    <item>
+     <property name="text">
+      <string>BR040 - Vendas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BR040 - Escritório</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BR040 - Fábrica</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Loja Tamoios</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Loja Tupis</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Loja Ipatinga</string>
+     </property>
+    </item>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -90,7 +113,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Setor</string>
+     <string>Loja</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -121,7 +144,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Acesse a bsae de conhecimento: Clique aqui!</string>
+     <string>Acesse a base de conhecimento: &lt;a href=http://172.20.113.106/glpi/front/knowbaseitem.form.php?id=10&gt; Clique aqui!&lt;/a&gt; </string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
@@ -194,6 +217,35 @@
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/LOGO HORIZONTAL_NOVO.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>170</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
     </property>
    </widget>
   </widget>
