@@ -61,9 +61,9 @@
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>204</x>
+      <x>200</x>
       <y>130</y>
-      <width>271</width>
+      <width>281</width>
       <height>22</height>
      </rect>
     </property>
@@ -238,15 +238,40 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QComboBox" name="comboBox_2">
     <property name="geometry">
      <rect>
       <x>200</x>
       <y>170</y>
       <width>281</width>
-      <height>20</height>
+      <height>22</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>Periféricos (Mouse, Teclado, Monitor, etc)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suprimentos (Toner ou Cilindro de impressão)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suporte Técnico (Sistemas integrados)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suporte Técnico (Computador)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Acessos (Permissão de Acessos)</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
